@@ -1,0 +1,15 @@
+# Virtual environment
+env/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Large / generated data
+baseline.csv
+live_batch_*.csv
+drifted_batches/
+
+# OS files
+.DS_Store
