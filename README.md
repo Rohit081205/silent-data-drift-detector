@@ -118,58 +118,47 @@ silent-data-drift-detector/
 
 ---
 
-## ▶️ How to Run
+▶️ How to Run
 
-## 1️⃣ Install Dependencies
+1️⃣ Install Dependencies
 pip install -r requirements.txt
 
-## 2️⃣ Prepare Baseline & Live Data
+2️⃣ Prepare Baseline & Live Data
 python split_data.py
 python create_live_batches.py
 
-## 3️⃣ Compute Baseline Statistics
+3️⃣ Compute Baseline Statistics
 python compute_baseline_stats.py
 
-## 4️⃣ (Optional) Inject Drift
+4️⃣ (Optional) Inject Drift
 python inject_drift.py
 
-## 5️⃣ Monitor for Drift
+5️⃣ Monitor for Drift
 python monitor.py
 
-## 📌 Example Output
+📌 Example Output
 📦 Monitoring live_batch_25.csv
 ⚠️ amt | PSI=0.58 | MeanShift=1.01 | VarShift=3.57 | SEVERE DRIFT
 
-## 🎯 Why Startups Would Use This
+🎯 Why Startups Would Use This
 
 🚫 Prevents silent ML failures
-
 💸 Saves customer trust & revenue
-
 🧠 Encourages proactive ML monitoring
-
 ⚡ Lightweight & low infrastructure cost
-
 🔌 Easy to integrate into existing pipelines
 
-## 🛠 Tech Stack
+🛠 Tech Stack
 
 Python
-
 pandas, numpy
-
 scipy
-
 No cloud services
-
 No MLOps frameworks
 
-## 📌 Future Enhancements
+📌 Future Enhancements
 
 Streamlit dashboard for visual monitoring
-
 Logging / email alerts
-
 Categorical feature drift detection
-
 Integration with CI/CD or model registries
