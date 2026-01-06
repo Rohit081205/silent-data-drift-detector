@@ -1,4 +1,4 @@
-# 🚨 Silent Data Drift Detector for Startups
+# 🚨 Silent Data Drift Detector
 
 A lightweight, production-friendly system to **detect silent data drift** in machine learning pipelines **before model performance degrades**.
 
